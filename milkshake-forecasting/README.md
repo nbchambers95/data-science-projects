@@ -1,18 +1,30 @@
 # Milkshake Sales Forecasting — OLS (Lags & Weather) vs. ARIMA/ARIMAX
 
+> Daily demand forecasting on a **synthetic** retail dataset. Compares **OLS with lag features** (and **weather** exogenous variables) versus **ARIMA/SARIMAX**.  
+> **Best model in this repo:** *OLS (lags + weather)* — strongest point accuracy and interval calibration.
+
+<!-- Badges (optional). Remove any you don't want. -->
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Made with](https://img.shields.io/badge/Stack-pandas%20%7C%20statsmodels%20%7C%20matplotlib-informational)
+![Synthetic Data](https://img.shields.io/badge/Data-Synthetic-success)
+
 <p align="center">
-  <a href="MilkshakeModeling.ipynb">
-    <img src="ols_lags_forecast.png" alt="OLS (lags) forecast" width="47%">
-  </a>
-  &nbsp;&nbsp;
-  <a href="MilkshakeModeling.ipynb">
-    <img src="ols_lags_weather_forecast.png" alt="OLS (lags + weather) forecast" width="47%">
-  </a>
+  <a href="MilkshakeModeling.ipynb"><b>Open the notebook</b></a> •
+  <a href="ItemSales_2023_2025.csv">ItemSales_2023_2025.csv</a> •
+  <a href="Weather Data.csv">Weather Data.csv</a> •
+  <a href="#-results-synthetic-data--dollars">Skip to results</a>
 </p>
 
 <p align="center">
-  <em>Left:</em> OLS (lags). <em>Right:</em> OLS (lags + weather).
+  <a href="MilkshakeModeling.ipynb">
+    <img src="ols_lags_forecast.png" alt="OLS (lags) preview" height="150">
+  </a>
+  &nbsp;&nbsp;
+  <a href="MilkshakeModeling.ipynb">
+    <img src="ols_lags_weather_forecast.png" alt="OLS (lags + weather) preview" height="150">
+  </a>
 </p>
+
 
 
 ➡️ Notebook: [`MilkshakeModeling.ipynb`](./MilkshakeModeling.ipynb)  
