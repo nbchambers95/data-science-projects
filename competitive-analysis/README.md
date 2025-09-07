@@ -1,4 +1,5 @@
 # Competitive Analysis — Text Analytics
+[Overview](#overview) • [Methods](#methods) • [Data](#data-synthetic) • [How to run](#how-to-run) • [Results](#results-quick-look) • [Files](#files) • [Requirements](#requirements) • [Notes](#notes)
 
 [← Back to portfolio root](../README.md)
 
@@ -48,21 +49,27 @@ Columns: typical review fields such as `review_id`, `date`, `rating`, `text`, pl
 ## Results (quick look)
 
 ### Sentiment comparison
-<p align="center">
-  <img src="sentiment_compare.png" alt="Sentiment comparison by business" width="75%">
-</p>
+<!-- Sentiment comparison -->
+<a href="sentiment_compare.png">
+  <img src="sentiment_compare.png" alt="Sentiment comparison by business" width="820">
+</a>
 
-**Takeaways (example):**
+**Takeaways:**
 - Both brands are strongly positive, but **Suck It Up** shows a higher positive share and lower negatives.  
 - **Brushy Mountain** has relatively more negative comments (service/time-to-serve signals).
 
 ### Frequent terms (themes)
-<p align="center">
-  <img src="top_unigrams_by_business.png" alt="Top unigrams by business" width="49%">
-  <img src="top_bigrams_by_business.png" alt="Top bigrams by business" width="49%">
-</p>
+<!-- Unigrams -->
+<a href="top_unigrams_by_business.png">
+  <img src="top_unigrams_by_business.png" alt="Top unigrams by business" width="820">
+</a>
 
-**Takeaways (example):**
+<!-- Bigrams -->
+<a href="top_bigrams_by_business.png">
+  <img src="top_bigrams_by_business.png" alt="Top bigrams by business" width="820">
+</a>
+
+**Takeaways:**
 - **Suck It Up** themes: *quick service*, *plenty flavors*, *milkshake*, *prices fair*.  
 - **Brushy Mountain** themes: *creamery*, *smokehouse*, *mountain*; bigrams highlight *“loved milkshakes”*, but also **“long wait”** and **“kids loved”** (family traffic).  
 - Combined with sentiment, this suggests **Suck It Up** wins on speed/experience; **Brushy Mountain** leans toward sit-down / family occasion.
