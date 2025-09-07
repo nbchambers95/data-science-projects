@@ -1,4 +1,14 @@
 # Milkshake Sales Forecasting — OLS (Lags & Weather) vs. ARIMA/ARIMAX
+<p align="left">
+  <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-blue?logo=python">
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-used-150458?logo=pandas&logoColor=white">
+  <img alt="statsmodels" src="https://img.shields.io/badge/statsmodels-used-4B8BBE">
+  <img alt="matplotlib" src="https://img.shields.io/badge/matplotlib-used-11557C">
+  <img alt="seaborn" src="https://img.shields.io/badge/seaborn-used-4C72B0">
+  <a href="../License"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+</p>
+[← Back to portfolio root](../README.md)
+
 
 > Daily demand forecasting on a **synthetic** retail dataset. Compares **OLS with lag features** (and **weather** exogenous variables) versus **ARIMA/SARIMAX**.  
 > **Best model in this repo:** *OLS (lags + weather)* — strongest point accuracy and interval calibration.
