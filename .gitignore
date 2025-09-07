@@ -1,0 +1,78 @@
+# -------------------------------
+# OS cruft
+# -------------------------------
+.DS_Store
+Thumbs.db
+Icon?
+ehthumbs.db
+
+# -------------------------------
+# Python bytecode / build junk
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.egg-info/
+.eggs/
+*.egg
+.Python
+build/
+dist/
+wheels/
+site/
+htmlcov/
+.coverage
+.pytest_cache/
+.cache/
+
+# -------------------------------
+# Virtual environments / secrets
+# -------------------------------
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# -------------------------------
+# Editors / tooling
+# -------------------------------
+.vscode/
+.idea/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.jupyter/
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------------
+# Large/binary data artifacts (OK to keep small CSVs used in the repo)
+# -------------------------------
+# We keep your project CSVs (ItemSales_2023_2025.csv, Weather Data.csv),
+# so we DO NOT ignore *.csv globally.
+*.zip
+*.tar
+*.gz
+*.7z
+*.bz2
+*.xz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# -------------------------------
+# Documentation build output
+# -------------------------------
+docs/_build/
