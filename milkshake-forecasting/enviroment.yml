@@ -1,0 +1,17 @@
+name: milkshake-forecasting
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9,<3.13
+  - pandas>=1.5
+  - numpy>=1.23
+  - statsmodels>=0.13
+  - scikit-learn>=1.2
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - jupyterlab>=3
+  - pip
+  - pip:
+      # Optional: classic notebook if you prefer it
+      - notebook>=7
