@@ -89,3 +89,10 @@ Compare sentiment and themes between two brands using NLP (sentiment, n-grams, l
 ## 🛠️ Stack
 Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib, seaborn)
 
+## Provenance & acknowledgements
+- This repository contains my capstone project for the M.S. at Appalachian State University.  
+- All code was written by me. I drew on class materials and public documentation for reference, and I generated/used **synthetic datasets** that mirror the original private data.  
+- I received feedback on modeling choices and presentation from Prof. Jeff Kaleta.  
+- I also used AI assistance (ChatGPT) for drafting/refactoring text, improving documentation, and suggesting code organization. I reviewed, tested, and am responsible for all final code and results.
+
+
