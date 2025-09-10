@@ -108,3 +108,6 @@ nltk.download('stopwords')
 The analysis here is fully reproducible with the synthetic data.
 
 The private/original project used the same pipeline and produced similar patterns.
+
+> See the [Provenance & acknowledgements](../README.md#provenance--acknowledgements) note in the repo root.
+
