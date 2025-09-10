@@ -103,3 +103,5 @@ Zoomable versions: [calendar-only (SVG)](./ols_calendar_forecast.svg) ·
 
 - Synthetic datasets keep the **shape and seasonality** of the original but contain **no private values**.
 - Results above are from the current synthetic run; they will **reproduce** if you run the notebook as provided.
+
+> See the [Provenance & acknowledgements](../README.md#provenance--acknowledgements) note in the repo root.
