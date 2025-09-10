@@ -32,9 +32,19 @@ Compare sentiment and themes between two brands using NLP (sentiment, n-grams, l
 
 ---
 
-### 3) Storewide Sales Forecasting — Linear Models *(coming soon)*
-- 🔗 **Project page:** `store-sales-linear-model/README.md`
-- 📓 **Notebook:** *to be added*
+### 3) Storewide Sales Forecasting — Linear Models (Calendar vs Calendar+Weather)
+
+- **Project page:** [store-sales-forecasting/README.md](store-sales-forecasting/README.md)  
+- **Notebook:** [store-sales-forecasting/StoreSalesForecasting.ipynb](store-sales-forecasting/StoreSalesForecasting.ipynb)  
+- **Data:** [StoreSales_Summary_23-24_synthetic.csv](store-sales-forecasting/StoreSales_Summary_23-24_synthetic.csv), [StoreSales_Summary_24-25_synthetic.csv](store-sales-forecasting/StoreSales_Summary_24-25_synthetic.csv), [Weather_Data_SYNTH.csv](store-sales-forecasting/Weather_Data_SYNTH.csv)
+
+**Headline (test set, dollars):**
+
+| Model               | RMSE  | MAE   | % within $20 | PI coverage | Avg PI range |
+|---------------------|------:|------:|-------------:|------------:|-------------:|
+| Calendar only       | 89.98 | 59.49 | 50.70%       | 88.73%      | $790.84      |
+| Calendar + weather  | 91.46 | 59.96 | 53.52%       | 91.55%      | $734.92      |
+
 
 
 ---
