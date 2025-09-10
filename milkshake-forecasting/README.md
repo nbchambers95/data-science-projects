@@ -134,3 +134,6 @@ df = (items.assign(Date=pd.to_datetime(items["Date"]))
 Optional: add a `requirements.txt` and install with:
 ```bash
 pip install -r requirements.txt
+
+> See the [Provenance & acknowledgements](../README.md#provenance--acknowledgements) note in the repo root.
+
