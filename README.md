@@ -21,6 +21,16 @@ All public datasets here are **synthetic or public**—no sensitive data.
 - 📓 **Notebook:** [milkshake-forecasting/MilkshakeModeling.ipynb](milkshake-forecasting/MilkshakeModeling.ipynb)
 - 🗂️ **Data:** [ItemSales_2023_2025.csv](milkshake-forecasting/ItemSales_2023_2025.csv), [Weather Data.csv](milkshake-forecasting/Weather%20Data.csv)
 - ✨ **Outcome:** Best overall = **OLS (lags + weather)** — strongest point accuracy and interval calibration on the synthetic set.
+<!-- Milkshake — headline figs -->
+<p align="center">
+  <a href="milkshake-forecasting/ols_lags_forecast.png">
+    <img src="milkshake-forecasting/ols_lags_forecast.png" width="47%" alt="OLS (lags) forecast">
+  </a>
+  &nbsp;
+  <a href="milkshake-forecasting/ols_lags_weather_forecast.png">
+    <img src="milkshake-forecasting/ols_lags_weather_forecast.png" width="47%" alt="OLS (lags + weather) forecast">
+  </a>
+</p>
 
 ---
 
@@ -30,6 +40,21 @@ Compare sentiment and themes between two brands using NLP (sentiment, n-grams, l
 - 📓 **Notebook:** [competitive-analysis/Competitive Analysis.ipynb](competitive-analysis/Competitive%20Analysis.ipynb)
 - 🗂️ **Data:** [suck_it_up_reviews.csv](competitive-analysis/suck_it_up_reviews.csv), [brushy_mountain_reviews.csv](competitive-analysis/brushy_mountain_reviews.csv)
 
+<!-- Competitive Analysis — headline figs -->
+<p align="center">
+  <a href="competitive-analysis/sentiment_compare.png">
+    <img src="competitive-analysis/sentiment_compare.png" width="30%" alt="Sentiment by business">
+  </a>
+  &nbsp;
+  <a href="competitive-analysis/top_unigrams_by_business.png">
+    <img src="competitive-analysis/top_unigrams_by_business.png" width="30%" alt="Top unigrams by business">
+  </a>
+  &nbsp;
+  <a href="competitive-analysis/top_bigrams_by_business.png">
+    <img src="competitive-analysis/top_bigrams_by_business.png" width="30%" alt="Top bigrams by business">
+  </a>
+</p>
+
 ---
 
 ### 3) Storewide Sales Forecasting — Linear Models (Calendar vs Calendar+Weather)
@@ -37,6 +62,18 @@ Compare sentiment and themes between two brands using NLP (sentiment, n-grams, l
 - **Project page:** [store-sales-forecasting/README.md](store-sales-forecasting/README.md)  
 - **Notebook:** [store-sales-forecasting/StoreSalesForecasting.ipynb](store-sales-forecasting/StoreSalesForecasting.ipynb)  
 - **Data:** [StoreSales_Summary_23-24_synthetic.csv](store-sales-forecasting/StoreSales_Summary_23-24_synthetic.csv), [StoreSales_Summary_24-25_synthetic.csv](store-sales-forecasting/StoreSales_Summary_24-25_synthetic.csv), [Weather_Data_SYNTH.csv](store-sales-forecasting/Weather_Data_SYNTH.csv)
+
+<!-- Storewide Sales — headline figs -->
+<p align="center">
+  <a href="store-sales-forecasting/ols_calendar_forecast.png">
+    <img src="store-sales-forecasting/ols_calendar_forecast.png" width="47%" alt="OLS calendar-only forecast">
+  </a>
+  &nbsp;
+  <a href="store-sales-forecasting/ols_calendar_weather_forecast.png">
+    <img src="store-sales-forecasting/ols_calendar_weather_forecast.png" width="47%" alt="OLS calendar + weather forecast">
+  </a>
+</p>
+
 
 **Headline (test set, dollars):**
 
