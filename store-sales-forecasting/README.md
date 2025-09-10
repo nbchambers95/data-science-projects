@@ -1,4 +1,5 @@
 # Storewide Sales Forecasting — Linear Models (Calendar vs Calendar+Weather)
+[← Back to portfolio root](../README.md)
 
 Daily **store-level net sales** forecasting using lightweight, interpretable linear models:
 
@@ -37,6 +38,18 @@ Typical columns (representative):
 ---
 
 ## ✅ Results (synthetic data • dollars)
+
+<p align="center">
+  <a href="./ols_calendar_forecast.png">
+    <img src="./ols_calendar_forecast.png" alt="OLS Calendar-only Forecast" width="47%">
+  </a>
+  &nbsp;&nbsp;
+  <a href="./ols_calendar_weather_forecast.png">
+    <img src="./ols_calendar_weather_forecast.png" alt="OLS Calendar + Weather Forecast" width="47%">
+  </a>
+</p>
+
+
 [OLS Calendar-only Forecast](./ols_calendar_forecast.png) ·
 [OLS Calendar + Weather Forecast](./ols_calendar_weather_forecast.png)
 
